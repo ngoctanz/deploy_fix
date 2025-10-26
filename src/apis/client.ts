@@ -1,5 +1,5 @@
 export const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+  process.env.NEXT_PUBLIC_API_URL || "https://fix-deploy-be.onrender.com";
 
 export type FetchOptions = RequestInit & { query?: Record<string, any> };
 
